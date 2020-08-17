@@ -11,6 +11,12 @@
   "Tinybit.CarCtrl|block": "小车控制|%index",
   "Tinybit.CarCtrlSpeed|block": "小车控制|%index|速度 %speed",
   "Tinybit.CarCtrlSpeed2|block": "小车控制|%index|左电机速度 %speed1|右电机速度 %speed2",
+
+  "Tinybit.speak.xiao|block": "小",
+  "Tinybit.speak.tian|block": "天",
+  "Tinybit.speak.nan|block": "男",
+  "Tinybit.speak.shen|block": "神",
+
   "Tinybit.enColor.OFF|block": "灭",
   "Tinybit.enColor.Red|block": "红色",
   "Tinybit.enColor.Green|block": "绿色",
