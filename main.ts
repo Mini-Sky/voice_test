@@ -52,6 +52,31 @@ namespace Tinybit {
         bao,
 
     }
+    export enum Speak_Rate {
+
+        //% blockId="zero" block="zero"
+        zero,
+        //% blockId="one" block="one"
+        one,
+        //% blockId="two" block="two"
+        two,
+        //% blockId="three" block="three"
+        three,
+        //% blockId="four" block="four"
+        four,
+        //% blockId="five" block="five"
+        five,
+        //% blockId="six" block="six"
+        six,
+        //% blockId="seven" block="seven"
+        seven,
+        //% blockId="eight" block="eight"
+        eight,
+        //% blockId="nine" block="nine"
+        nine,
+        //% blockId="ten" block="ten"
+        ten,
+    }
     export enum enMusic {
 
         dadadum = 0,
@@ -263,7 +288,7 @@ namespace Tinybit {
             }
         }
     }
-    //************小天************/
+    //************发音人************/
     //% blockId=Tinybit_Speaker_Select block="Speaker_Select|value %value"
     //% weight=98
     //% blockGap=10
@@ -301,7 +326,69 @@ namespace Tinybit {
            
         }
     }
+    //************语速************/
+    //% blockId=Tinybit_Speaking_Rate block="Speaking_Rate|value %value"
+    //% weight=98
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
+    export function Speaking_Rate(value: Speak_Rate): void {
 
+        switch (value) {
+            case Speak_Rate.zero: {
+                
+                break;
+            }
+            case Speak_Rate.one: {
+              
+                break;
+            }
+            case Speak_Rate.two: {
+                
+                break;
+            }
+            case Speak_Rate.three: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.four: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.five: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.six: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.seven: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.eight: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.nine: {
+            
+                break;
+                        
+            }
+            case Speak_Rate.five: {
+            
+                break;
+                        
+            }
+           
+        }
+    }
 
     //% blockId=Tinybit_RGB_Car_Big2 block="RGB_Car_Big2|value1 %value1|value2 %value2|value3 %value3"
     //% weight=97

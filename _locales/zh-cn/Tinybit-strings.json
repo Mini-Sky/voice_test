@@ -5,6 +5,7 @@
   "Tinybit.RGB_Car_Big|block": "小车RGB探照灯|选择车灯颜色 %value",
   "Tinybit.XFS_Speak|block": "小车XFS播报",
   "Tinybit.Speaker_Select|block": "发音人 %value",
+  "Tinybit.Speaking_Rate|block": "语速 %value",
   "Tinybit.RGB_Car_Big2|block": "小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3",
   "Tinybit.Music_Car|block": "小车音乐播放|%index",
   "Tinybit.Voice_Sensor|block": "声音传感器返回",
@@ -19,6 +20,19 @@
   "Tinybit.Speaker.pin|block": "小萍",
   "Tinybit.Speaker.ya|block": "唐老鸭",
   "Tinybit.Speaker.bao|block": "许小宝",
+
+  "Tinybit.Speak_Rate.zero|block": "0",
+  "Tinybit.Speak_Rate.one|block": "1",
+  "Tinybit.Speak_Rate.two|block": "2",
+  "Tinybit.Speak_Rate.three|block": "3",
+  "Tinybit.Speak_Rate.four|block": "4",
+  "Tinybit.Speak_Rate.five|block": "5",
+  "Tinybit.Speak_Rate.six|block": "6",
+  "Tinybit.Speak_Rate.seven|block": "7",
+  "Tinybit.Speak_Rate.eight|block": "8",
+  "Tinybit.Speak_Rate.nine|block": "9",
+  "Tinybit.Speak_Rate.ten|block": "10",
+
 
   "Tinybit.enColor.OFF|block": "灭",
   "Tinybit.enColor.Red|block": "红色",
