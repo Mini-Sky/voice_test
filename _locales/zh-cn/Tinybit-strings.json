@@ -4,7 +4,7 @@
   "Tinybit.RGB_Car_Program|block": "车身七彩流水灯",
   "Tinybit.RGB_Car_Big|block": "小车RGB探照灯|选择车灯颜色 %value",
   "Tinybit.XFS_Speak|block": "小车XFS播报",
-  "Tinybit.Speaker|block": "小天男神",
+  "Tinybit.Speaker|block": "小天男神|value %value",
   "Tinybit.RGB_Car_Big2|block": "小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3",
   "Tinybit.Music_Car|block": "小车音乐播放|%index",
   "Tinybit.Voice_Sensor|block": "声音传感器返回",
