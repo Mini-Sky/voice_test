@@ -260,7 +260,7 @@ namespace Tinybit {
         }
     }
     //************小天************/
-    //% blockId=Tinybit_Speaker block="RGB_Car_Big|value %value"
+    //% blockId=Tinybit_Speaker block="Speaker|value %value"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
