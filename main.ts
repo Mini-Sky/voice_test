@@ -36,16 +36,20 @@ namespace Tinybit {
         Yellow,
 
     }
-    export enum speak {
+    export enum Speaker {
 
-        //% blockId="xiao" block="xiao"
-        xiao,
-        //% blockId="tian" block="tian"
-        tian,
-        //% blockId="nan" block="nan"
-        nan,
-        //% blockId="shen" block="shen"
-        shen,
+        //% blockId="yan" block="yan"
+        yan,
+        //% blockId="jiu" block="jiu"
+        jiu,
+        //% blockId="duo" block="duo"
+        duo,
+        //% blockId="pin" block="pin"
+        pin,
+        //% blockId="ya" block="ya"
+        ya,
+        //% blockId="bao" block="bao"
+        bao,
 
     }
     export enum enMusic {
@@ -260,30 +264,41 @@ namespace Tinybit {
         }
     }
     //************小天************/
-    //% blockId=Tinybit_Speaker block="Speaker|value %value"
+    //% blockId=Tinybit_Speaker_Select block="Speaker_Select|value %value"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
-    export function Speaker(value: speak): void {
+    export function Speaker_Select(value: Speaker): void {
 
         switch (value) {
-            case speak.xiao: {
+            case Speaker.yan: {
                 
                 break;
             }
-            case speak.tian: {
+            case Speaker.jiu: {
               
                 break;
             }
-            case speak.nan: {
+            case Speaker.duo: {
                 
                 break;
             }
-            case speak.shen: {
+            case Speaker.pin: {
             
                 break;
                         
             }
+            case Speaker.ya: {
+            
+                break;
+                        
+            }
+            case Speaker.bao: {
+            
+                break;
+                        
+            }
+           
         }
     }
 
