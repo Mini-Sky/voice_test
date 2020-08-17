@@ -268,19 +268,19 @@ namespace Tinybit {
 
         switch (value) {
             case speak.xiao: {
-                setPwmRGB(0, 0, 0);
+                
                 break;
             }
             case speak.tian: {
-                setPwmRGB(255, 0, 0);
+              
                 break;
             }
             case speak.nan: {
-                setPwmRGB(0, 255, 0);
+                
                 break;
             }
             case speak.shen: {
-                setPwmRGB(0, 0, 255);
+            
                 break;
                         
             }
