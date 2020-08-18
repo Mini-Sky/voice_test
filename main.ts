@@ -12,6 +12,7 @@ namespace Tinybit {
     const MOTOR = 0x02
     const RGB = 0x01
     const XFS = 0x40
+    const XFS2 = 0x80
     
 
     let yahStrip: neopixel.Strip;
@@ -176,7 +177,7 @@ namespace Tinybit {
         pins.i2cWriteBuffer(PWM_ADD, buf);
     }
 
-    //************xiaotian_i2c
+    //**************语音播报i2c***************//
     //% blockId=Tinybit_XFS_Speak block="XFS_Speak"
     //% weight=98
     //% blockGap=10
@@ -190,6 +191,7 @@ namespace Tinybit {
         buf[4] = 0x01;
         buf[5] = 0x41;     
         pins.i2cWriteBuffer(XFS, buf);
+        pins.i2cWriteBuffer(XFS2, buf);
     }
     //****************************************************************//
 
