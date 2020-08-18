@@ -11,8 +11,7 @@ namespace Tinybit {
     const PWM_ADD = 0x01
     const MOTOR = 0x02
     const RGB = 0x01
-    const XFS = 0x40
-    const XFS2 = 0x80
+    const XFS = 0xA0
     
 
     let yahStrip: neopixel.Strip;
@@ -191,7 +190,6 @@ namespace Tinybit {
         buf[4] = 0x01;
         buf[5] = 0x41;     
         pins.i2cWriteBuffer(XFS, buf);
-        pins.i2cWriteBuffer(XFS2, buf);
     }
     //****************************************************************//
 
