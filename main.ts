@@ -173,7 +173,7 @@ namespace Tinybit {
             case 5: buf[1] = 0; buf[2] = speed1; buf[3] = speed2; buf[4] = 0; break;    //tleft
             case 6: buf[1] = speed1; buf[2] = 0; buf[3] = 0; buf[4] = speed2; break;    //tright
         }
-        //pins.i2cWriteBuffer(PWM_ADD, buf);
+        //pins.i2cWriteBuffer(PWM_ADD, buf);十大算法阿斯弗是打个安少按国
     }
 
     //**************语音播报i2c***************//
