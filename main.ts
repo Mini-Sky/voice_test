@@ -11,7 +11,7 @@ namespace Tinybit {
     const PWM_ADD = 0x01
     const MOTOR = 0x02
     const RGB = 0x01
-    const XFS = 0xA0
+    const XFS = 0x50
     
 
     let yahStrip: neopixel.Strip;
