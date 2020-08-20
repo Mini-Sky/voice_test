@@ -10,7 +10,7 @@ namespace Tinybit {
 
 //    const PWM_ADD = 0x01
  //   const MOTOR = 0x02
-  //  const RGB = 0x01
+  //  const RGB = 0x01dasd 
     const XFS = 0x50
     
 
